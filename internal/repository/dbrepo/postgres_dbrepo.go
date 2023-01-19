@@ -1,11 +1,12 @@
 package dbrepo
 
 import (
-	"backend/internal/models"
 	"context"
 	"database/sql"
 	"fmt"
 	"time"
+
+	"github.com/mhlengi/backend/internal/models"
 )
 
 // PostgresDBRepo is the struct used to wrap our database connection pool, so that we
